@@ -1,0 +1,11 @@
+/**
+ * Tailwind will swap these directives out at build time with all of its
+ * generated CSS. We're using @import instead of the @tailwind to
+ * avoid issues when importing any of our own additional files.
+ */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
